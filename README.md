@@ -10,9 +10,6 @@ export PATH=$PATH:/usr/x86_64-pc-linux-gnu/aarch64-linux-gnu/gcc-bin/4.9.3/
 export CROSS_COMPILE=aarch64-linux-gnu-
 export ARCHV=aarch64
 export ARCH=arm64
-#export JAVA_HOME=/usr/lib/jvm/java-7-openjdk-amd64
-#export PATH=$JAVA_HOME/bin:$PATH
-#export CLASSPATH=.:$JAVA_HOME/lib:$JAVA_HOME/lib/tools.jar
 
 cd u-boot
 make rk3368_box_defconfig
