@@ -21,6 +21,6 @@ make geekbox_defconfig
 make Image modules
 cd ..
 
-. build/envsetup.sh
+source ./build/envsetup.sh
 lunch rk3368_64-userdebug
 make -j16
