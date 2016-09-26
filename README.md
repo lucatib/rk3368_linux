@@ -17,6 +17,7 @@ cd ..
 http://review.cyanogenmod.org/#/c/120824/2/build/Android.common_build.mk
 ifneq ($(WITHOUT_HOST_CLANG),true) -> ifeq ($(WITHOUT_HOST_CLANG),false)
 
+
 source ./build/envsetup.sh
 lunch rk3368_64-userdebug
 make -j16
